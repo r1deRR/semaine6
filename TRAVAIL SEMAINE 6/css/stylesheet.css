@@ -1,0 +1,83 @@
+header {
+    border: 2px black solid;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    margin:15px;
+    background-image: url("http://img0.mxstatic.com/wallpapers/0c94d4459f4a0384d7b12a52f65d25fc_large.jpeg")
+}
+
+header img {
+    float: left;
+    border: 2px black solid;
+    border-radius: 50%;
+    margin-right: 30px ;
+}
+
+main {
+    border: 2px black solid;
+    width: 100%;
+    height: 485px;
+    padding: 15px 15px 15px 125px;
+    margin: 15px;
+    background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg")
+}
+
+footer {
+    border: 2px black solid;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin:15px;
+    background-image: url("https://thinkery.me/img.php?alt=1yujybq&src=http%3A%2F%2Fsubtlepatterns.com%2Fwp-content%2Fuploads%2F2011%2F04%2F60degree_gray_preview.jpg")
+}
+
+footer img {
+    width:50px;
+    height:50px; 
+    float : right;
+
+}
+
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+}
+
+#metier {
+    text-align:center; 
+    font-size:8em; 
+    color:#0C90D2;
+    font-weight:bold;
+}
+
+
+#nom {
+    color:#0C90D2;
+    font-weight:bold;
+}
+
+.titres {
+    text-align:center; 
+    color:#0C90D2;
+    font-style:italic;
+    font-size:2em;
+    text-decoration:underline;
+}
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+
+ul li {
+    text-align:center;
+    font-size:1.5em;  
+}
+
+h3 span {
+    text-align:left; 
+    color:#0C90D2;
+}
+
